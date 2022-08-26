@@ -36,7 +36,7 @@ import { WorkingArea } from 'src/app/remote-models/working-area-model';
 	styleUrls: [ './edit-pro.component.css' ]
 })
 export class EditProComponent implements OnInit {
-	endpoint:string = "https://jce-flask-02.herokuapp.com"
+	endpoint:string = "https://jce-server.herokuapp.com"
 
 	isLoaded = false;
 	isLinear = true;
